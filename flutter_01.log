@@ -1,0 +1,45 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --target lib\main.dart -d e4f6239b --track-widget-creation --start-paused
+
+## exception
+
+_InternalLinkedHashMap<String, dynamic>: {code: 100, message: Feature is disabled, data: {request: {method: _reloadSources, params: {pause: true, rootLibUri: file:///data/user/0/com.example.app_marcas/code_cache/app_marcasJZMHPX/app_marcas/lib/main.dart.incremental.dill, packagesUri: file:///data/user/0/com.example.app_marcas/code_cache/app_marcasJZMHPX/app_marcas/.packages, isolateId: isolates/3365559972256835}}, details: This isolate cannot reload sources right now.}}
+
+```
+null```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, v1.8.3, on Microsoft Windows [VersiÃ³n 10.0.17763.678], locale es-ES)
+    • Flutter version 1.8.3 at C:\flutter
+    • Framework revision e4ebcdf6f4 (7 weeks ago), 2019-07-27 11:48:24 -0700
+    • Engine revision 38ac5f30a7
+    • Dart version 2.5.0 (build 2.5.0-dev.1.0 0ca1582afd)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 28.0.3)
+    • Android SDK at C:\Users\sergi\AppData\Local\Android\sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-Q, build-tools 28.0.3
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1343-b01)
+    • All Android licenses accepted.
+
+[✓] Android Studio (version 3.4)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin version 37.0.1
+    • Dart plugin version 183.6270
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1343-b01)
+
+[✓] VS Code (version 1.38.0)
+    • VS Code at C:\Users\sergi\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 3.4.1
+
+[✓] Connected device (1 available)
+    • MI 8 • e4f6239b • android-arm64 • Android 9 (API 28)
+
+• No issues found!
+```
